@@ -20,6 +20,20 @@ docker compose up -d
 
 ```
 
+5. Clonar el archivo __env.template__ 
+  y renombrar la copia a __.env__
+
+
+6. Llenar las variables de entorno difinidas en el ```.env``` 
+
+
+8. Ejecutar la app en desarrollo ```npm run demon```
+
+7. Rescontruir la base de datos con el seed
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Stack usado
 * Nest
 * MongoDB
